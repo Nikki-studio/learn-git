@@ -5,4 +5,5 @@
 ##git commit -m "title" "desription"
 ## eg.
 #git commit -m "Added multiple files" -m "Added a bunch of files and specifically file:`README.md` which describes the project and its purpose and file:`learn-git.sh` which shows the files i have learnt"
-
+#git config --global user.email "joewamwaniki@gmail.com"		# adds your email to your repository if not set
+#git config --global user.name "Nikki-studio"		# adds your github account name or whatever host account name if not yet set
