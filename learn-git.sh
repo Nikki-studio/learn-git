@@ -26,11 +26,21 @@
 
 #git remote add origin https://github.com/Nikki-studio/learn-git.git		# adds a new remote connection via the given link and adds an origin
 #git push --set-upstream master master # this command tells git Push my local master branch to the remote named master, and set that remote
-#git push origin master		#push all the changes to position origin in branc master or in other words the command tells git Take my local master branch and push it to the remote repository named origin, updating its master branch.
+#git push origin master		#push all the changes to position origin in branch master or in other words the command tells git Take my local master branch and push it to the remote repository named origin, updating its master branch.
 #git branch		# shows you all the branches in git
 #git branch -M main		# renames your branch to main when you have one branch forcefully 
 #git branch -M old-name new-name		# if you want too rename it if you got many branches th `-M` overrides everything 
 #git branch -m old-name new-name		# it renames but uses -m to avoid uneccessary overrides
+#git diff branch_name		# shows the code of the provided branch name and compares it to the code of the current branch 
+#git merge branch_name		# merges the given branch name to the current branch
+#git push -u origin a_non_main_branch		# push the code 
+# one does a pull request
+# if pull request is accepted, one deletes ones branch and switches tothe main branch
+
+
+
+
+
 
 
 
