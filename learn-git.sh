@@ -18,7 +18,7 @@
 
 
 #git reset #resets removes all files from the stagin area
-#git reset <filename> #ermoves a specific file from the staging area
+#git reset -- <filename> #ermoves a specific file from the staging area
 ## functions of the commands above can still be done for newer gits by the commans below
 #git restore --staged
 #git restore --staged <file_name>
