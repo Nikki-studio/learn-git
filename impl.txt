@@ -1,0 +1,2 @@
+ccp = clipboard copy
+cp = file copy
