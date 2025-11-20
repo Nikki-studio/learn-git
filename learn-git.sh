@@ -16,3 +16,9 @@
 ## it asks for the file name that the ssh key is to be generated in. i types my filename which is stored in the current directory if filename is not provided it shall save it as `<current users filepath>/.ssh/id_rsa`
 ## it asks for the passphrase to be passed i did not enter any passphrase.
 
+
+#git reset #resets removes all files from the stagin area
+#git reset <filename> #ermoves a specific file from the staging area
+## functions of the commands above can still be done for newer gits by the commans below
+#git restore --staged
+#git restore --staged <file_name>
