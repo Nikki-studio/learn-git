@@ -16,6 +16,7 @@
 ## it asks for the file name that the ssh key is to be generated in. i types my filename which is stored in the current directory if filename is not provided it shall save it as `<current users filepath>/.ssh/id_rsa`
 ## it asks for the passphrase to be passed i did not enter any passphrase.
 
+#ssh-add  path_to_private_key # adds private key
 
 #git reset #resets removes all files from the stagin area
 #git reset -- <filename> #ermoves a specific file from the staging area
@@ -25,12 +26,39 @@
 
 
 #git remote add origin https://github.com/Nikki-studio/learn-git.git		# adds a new remote connection via the given link and adds an origin
-#git push --set-upstream master master # this command tells git Push my local master branch to the remote named master, and set that remote
+#git push --set-upstream master master # this command tells git Push my local master branch to the remote named master, and set that remote for default `git push
 #git push origin master		#push all the changes to position origin in branc master or in other words the command tells git Take my local master branch and push it to the remote repository named origin, updating its master branch.
 #git branch		# shows you all the branches in git
 #git branch -M main		# renames your branch to main when you have one branch forcefully 
 #git branch -M old-name new-name		# if you want too rename it if you got many branches th `-M` overrides everything 
 #git branch -m old-name new-name		# it renames but uses -m to avoid uneccessary overrides
+
+#git remote -v		# check for the remote repositories
+#expected output:
+	#origin  https://github.com/Nikki-studio/learn-git.git (fetch)
+	#origin  https://github.com/Nikki-studio/learn-git.git (push)
+
+#git remote set-url origin git@github.com:Nikki-studio/learn-git.git		# changes the remote  to  ssh
+
+#ssh -T git@github.com		# tes ssh connection
+
+# how to do a pull request.
+
+## --- GIT BRANCHING ---
+## - one can create a branch for developing something else. 
+## - a branch apart from the main branch is called a feature branch.
+## - a feature branch is useful for creating a sandboxed env for developing features that could potentially break your code.
+## - you can merge it later
+## - if the main code has a bug, one can create a branch to fix te bug so as to safel fix the bug
+## - 
+
+#git checkout		# this command is used in switching through branches
+#git checkout -b new_branch_name		# the -b in the command and the following string is used to create a new branch and naming it with the name provided
+#git checkout brach_name		# switched to the branch with the branch name
+
+
+
+
 
 
 
